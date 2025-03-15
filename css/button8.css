@@ -1,0 +1,101 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+#main{}
+#main .main-header{
+    width: 1280px;
+    height: 80px;
+    margin: 0 auto;
+    background: #000000;
+}
+
+.logo{
+  width: 30%;
+    height: 100%;
+    float: left;
+    
+}
+.logo img{
+  margin: 20px 0 0 90px;
+  width: 120px;
+  height: 40px;
+
+
+}
+.main-header .manu{
+  width: 70%;
+    height: 100%;
+     float: reght;
+
+    
+}
+
+
+/*dropdown-menu*/
+#dropdown-menu{
+     list-style-type:none;
+     width: 1280px;
+     min-height: 70px;
+     background:#000000;
+     margin: 15px auto;
+}
+#dropdown-menu li{
+  
+     position: relative;
+    /*  float: right;
+     margin: 15px 0;*/
+     float: left;
+    
+
+
+}
+#dropdown-menu li a{
+     color: #E6DB74;
+     text-decoration: none;
+     display: block;
+     padding: 26px;
+     background: #000000;
+}
+#dropdown-menu li a:hover{
+    background: red; 
+}
+#dropdown-menu li:{
+     background: ;
+}
+/*dropdown*/
+#dropdown-menu li ul{
+     list-style-type:none;
+     padding: o;
+     position: absolute;
+     left: -99999px;
+    
+
+}
+#dropdown-menu li:hover ul{
+     left: 0px;
+
+}
+#dropdown-menu li ul li{
+     float: none;
+     width: 105px;
+     position: relative;
+
+}
+/*nested manu*/
+#dropdown-menu li ul li ul{
+     list-style-type:none;
+     padding: o;
+     position: absolute;
+     top: -99999px;
+
+}
+#dropdown-menu li ul li:hover ul{
+     left: 100px;
+     top: 0px;
+
+}
+/*=========================*/
+/*=========================*/
+
